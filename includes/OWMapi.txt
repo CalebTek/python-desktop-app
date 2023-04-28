@@ -1,0 +1,17 @@
+﻿Api key
+3c6d376bab2eb677c125eae404a840e3
+
+API call:
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={your api key}
+
+Parameters:
+q city name, state code and country code divided by comma, use ISO 3166 country codes. You can specify the parameter not only in English. In this case, the API response should be returned in the same language as the language of requested location name if the location is in our predefined list of more than 200,000 locations.
+
+Examples of API calls:
+api.openweathermap.org/data/2.5/weather?q=London
+
+api.openweathermap.org/data/2.5/weather?q=London,uk
